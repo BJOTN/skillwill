@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <div>
+          <a href="#" class="nav_logo">Bjorn</a>
+        </div>
+
+        <div class="nav_menu" id="nav-menu">
+          <ul class="nav_list">
+            <li class="nav__item"><a href="#home" class="nav_link">Home</a></li>
+            <li class="nav__item">
+              <a href="#skills" class="nav_link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav_link">About</a>
+            </li>
+            <li class="nav__item"><a href="#work" class="nav_link">Work</a></li>
+            <li class="nav__item">
+              <a href="#contact" class="nav_link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main_section" id="home">
+        <div class="left_section">
+          <h1>
+            Hi, <br />
+            I'am <span>Bjorn</span> <br />
+            Full Stack developer
+          </h1>
+          <button class="general_button"><a href="#contact">Contact</a></button>
+        </div>
+        <div class="right_section">
+          <img src="./img/img-bjorn/bjorn.jpg" alt="img" />
+        </div>
+      </div>
+      <div class="line-container" id="skills">
+        <div class="moving-line">
+          <img src="./img/logo-img/icons8-html-5-100.png" alt="html" />
+          <img src="./img/logo-img/icons8-css3-100.png" alt="html" />
+          <img src="./img/logo-img/icons8-javascript-100.png" alt="html" />
+          <img src="./img/logo-img/icons8-dattiloscritto-100.png" alt="html" />
+          <img src="./img/logo-img/icons8-reagire-100.png" alt="html" />
+          <img src="./img/logo-img/icons8-tailwind-css-96.png" alt="html" />
+          <img src="./img/logo-img/icons8-nodo-js-96.png" alt="html" />
+        </div>
+      </div>
+      <div id="about">
+        <div class="right_section" style="width: 100%">
+          <img src="./img/img-bjorn/bjorn.jpg" alt="img" />
+        </div>
+        <div class="text_about">
+          <p>
+            I'm passionate and experienced
+            <span class="blue_text">Full Stack Developer</span> with a strong
+            background in both front-end and back-end development. With over 2
+            years of experience in the tech industry, I have honed my skills in
+            creating dynamic, responsive, and user-friendly web applications.
+          </p>
+          <div class="button_bout">
+            <button class="general_button">
+              <a href="#" style="color: white">View my Github</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="my_projects" id="work">
+        <div class="title_project"><p>My Projects</p></div>
+        <div class="container_project">
+          <div class="card_project">
+            <h2>Just eat</h2>
+            <a href="#"><img src="./img/img-bjorn/bjorn.jpg" alt="" class="img_project" /></a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+              deleniti officia, pariatur qui molestiae reiciendis cum quasi
+              architecto non sint dolore? Maiores corrupti possimus eaque
+              debitis explicabo. Inventore, ullam laudantium?
+            </p>
+          </div>
+          <div class="card_project">
+            <h2>Just eat</h2>
+            <a href="#"><img src="./img/img-bjorn/bjorn.jpg" alt="" class="img_project" /></a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+              deleniti officia, pariatur qui molestiae reiciendis cum quasi
+              architecto non sint dolore? Maiores corrupti possimus eaque
+              debitis explicabo. Inventore, ullam laudantium?
+            </p>
+          </div>
+          <div class="card_project">
+            <h2>Just eat</h2>
+            <a href="#"><img src="./img/img-bjorn/bjorn.jpg" alt="" class="img_project" /></a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+              deleniti officia, pariatur qui molestiae reiciendis cum quasi
+              architecto non sint dolore? Maiores corrupti possimus eaque
+              debitis explicabo. Inventore, ullam laudantium?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form" id="contact">
+        <div class="title_project"><p>Contact me</p></div>
+        <div class="container_form">
+            <div>
+                <img src="./img/img-bjorn/bjorn.jpg" alt="" />
+            </div>
+            <div class="form">
+            <form>
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" required />
+
+              <label for="cognome">Cognome</label>
+              <input type="text" id="cognome" name="cognome" required />
+
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+
+              <label for="messaggio">Messaggio</label>
+              <textarea
+                id="messaggio"
+                name="messaggio"
+                rows="5"
+                required
+              ></textarea>
+
+              <button type="submit">Invia</button>
+            </form>
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
